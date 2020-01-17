@@ -25,22 +25,24 @@ const proceduresArray = [
 
 //import { Router, Route } from 'react-router-dom';
 function App(){
+  var prePath = "/dentist-React-App";
   return(
+
     
 
       <Router>
 
         <nav>
-          <Link to="/">Home</Link>{"  "}
-          <Link to="/procedures">Procedures</Link>{"  "}
-          <Link to="/contact">contact</Link>{"  "}
-          <Link to="/about">About</Link>
+          <Link to={prePath +"/"}>Home</Link>{"  "}
+          <Link to={prePath +"/procedures"}>Procedures</Link>{"  "}
+          <Link to={prePath +"/contact"}>contact</Link>{"  "}
+          <Link to={prePath +"/about"}>About</Link>
         </nav>
         <div>
-          <Route exact path="/" component={Home} />
-          <Route path="/procedures" component={() => <Procedures procedures={proceduresArray} />} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/about" component={() => <About about={aboutArray}/>} />
+          <Route exact path={prePath +"/"} component={Home} />
+          <Route path={prePath +"/procedures"} component={() => <Procedures procedures={proceduresArray} />} />
+          <Route path={prePath +"/contact"} component={Contact} />
+          <Route path={prePath +"/about"} component={() => <About about={aboutArray}/>} />
         </div>
       </Router>
 
