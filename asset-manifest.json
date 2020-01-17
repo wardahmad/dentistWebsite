@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/wardahmad/dentistWebsite/static/css/main.d1b05096.chunk.css",
+    "main.js": "/wardahmad/dentistWebsite/static/js/main.e49cef25.chunk.js",
+    "main.js.map": "/wardahmad/dentistWebsite/static/js/main.e49cef25.chunk.js.map",
+    "runtime-main.js": "/wardahmad/dentistWebsite/static/js/runtime-main.a1b0d161.js",
+    "runtime-main.js.map": "/wardahmad/dentistWebsite/static/js/runtime-main.a1b0d161.js.map",
+    "static/js/2.cedec3f8.chunk.js": "/wardahmad/dentistWebsite/static/js/2.cedec3f8.chunk.js",
+    "static/js/2.cedec3f8.chunk.js.map": "/wardahmad/dentistWebsite/static/js/2.cedec3f8.chunk.js.map",
+    "index.html": "/wardahmad/dentistWebsite/index.html",
+    "precache-manifest.c8d6e494e50c3d6097a01476c11d750f.js": "/wardahmad/dentistWebsite/precache-manifest.c8d6e494e50c3d6097a01476c11d750f.js",
+    "service-worker.js": "/wardahmad/dentistWebsite/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/wardahmad/dentistWebsite/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.cedec3f8.chunk.js.LICENSE": "/wardahmad/dentistWebsite/static/js/2.cedec3f8.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a1b0d161.js",
+    "static/js/2.cedec3f8.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.e49cef25.chunk.js"
+  ]
+}
